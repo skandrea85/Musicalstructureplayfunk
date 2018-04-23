@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andrea.musicalstructureplayfunk.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="@dimen/text"
+        android:layout_marginBottom="@dimen/bottom"
+        android:layout_marginTop="@dimen/top"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/draw"
+        android:src="@drawable/notemusic"
+        android:layout_marginBottom="@dimen/top"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/artist"
+        android:id="@+id/artist_text_view"
+        android:textSize="@dimen/textsize"
+        android:layout_marginLeft="@dimen/drawpadding"
+        android:layout_marginBottom="@dimen/music"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/song"
+        android:id="@+id/Song_text_view"
+        android:textSize="@dimen/textsize"
+        android:layout_marginLeft="@dimen/drawpadding"
+
+        android:layout_marginBottom="@dimen/margin_text"
+        />
+    <ProgressBar
+        android:id="@+id/determinateBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="35"
+        android:layout_marginLeft="@dimen/top"
+        android:layout_marginRight="@dimen/top"
+        android:layout_marginBottom="@dimen/top"
+        />
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <ImageButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:layout_centerHorizontal="true"
+           android:background="@drawable/play"
+           android:id="@+id/play"
+           />
+       <ImageButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_toRightOf="@id/play"
+           android:background="@drawable/stop"
+           android:id="@+id/stop"
+
+
+           />
+       <ImageButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_toLeftOf="@id/play"
+           android:background="@drawable/pause"
+           android:id="@+id/pause"
+           />
+       <ImageButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_toLeftOf="@id/pause"
+           android:background="@drawable/rewind"
+
+           />
+       <ImageButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+
+           android:background="@drawable/fast_forward"
+           android:layout_toRightOf="@id/stop"
+
+           />
+
+
+
+
+   </RelativeLayout>
+
+
+</LinearLayout>

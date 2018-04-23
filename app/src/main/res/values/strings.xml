@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Musical structure play funk</string>
+    <string name="title_activity_rock">rockActivity</string>
+    <string name="Guns">Guns and roses</string>
+    <string name="Johnny">Johnny Cash</string>
+    <string name="james">James Brown</string>
+    <string name="bob">Bob Marley</string>
+    <string name="play">Music Player</string>
+    <string name="artist">Artist Name</string>
+    <string name="song">Song Name</string>
+
+
+</resources>

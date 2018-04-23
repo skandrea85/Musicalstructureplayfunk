@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.andrea.musicalstructureplayfunk.MainActivity"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Guns"
+        android:id="@+id/rock"
+        android:textSize="@dimen/text"
+        android:gravity="center_vertical"
+        android:background="@drawable/button"
+        android:drawableRight="@drawable/play"
+        android:drawablePadding="@dimen/drawpadding"
+        android:paddingRight="@dimen/paddingright"
+        android:paddingLeft="@dimen/paddingleft"
+        android:textColor="#FF9800"
+
+        />
+
+    <TextView
+        android:id="@+id/folk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FF9800"
+        android:background="@drawable/button"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/paddingleft"
+        android:paddingRight="@dimen/paddingright"
+        android:drawablePadding="@dimen/drawpadding"
+        android:drawableRight="@drawable/play"
+        android:text="@string/Johnny"
+        android:textSize="@dimen/text" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/james"
+        android:gravity="center_vertical"
+        android:id="@+id/funk"
+        android:textSize="@dimen/text"
+        android:paddingLeft="@dimen/paddingleft"
+        android:paddingRight="@dimen/paddingright"
+        android:drawablePadding="@dimen/drawpadding"
+        android:background="@drawable/button"
+        android:drawableRight="@drawable/play"
+        android:textColor="#FF9800"
+
+
+
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/bob"
+        android:gravity="center_vertical"
+        android:id="@+id/reggae"
+        android:textSize="@dimen/text"
+        android:paddingLeft="@dimen/paddingleft"
+        android:paddingRight="@dimen/paddingright"
+        android:drawablePadding="@dimen/drawpadding"
+        android:background="@drawable/button"
+        android:drawableRight="@drawable/play"
+        android:textColor="#FF9800"
+
+
+
+        />
+
+
+</LinearLayout>

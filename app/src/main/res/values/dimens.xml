@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text">25sp</dimen>
+    <dimen name="paddingleft">35dp</dimen>
+    <dimen name="paddingright">90dp</dimen>
+    <dimen name="drawpadding">30dp</dimen>
+    <dimen name="bottom">40dp</dimen>
+    <dimen name="top">20dp</dimen>
+    <dimen name="draw">200dp</dimen>
+    <dimen name="textsize">20sp</dimen>
+    <dimen name="margin_text">30dp</dimen>
+    <dimen name="music">5dp</dimen>
+
+
+
+</resources>
