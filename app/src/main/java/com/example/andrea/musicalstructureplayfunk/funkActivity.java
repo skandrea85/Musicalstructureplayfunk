@@ -14,10 +14,10 @@ public class funkActivity extends AppCompatActivity {
         setContentView(R.layout.list_music);
 
 
-        ArrayList<Musicon> funk  =  new ArrayList<Musicon>();
-        funk.add(new Musicon("James Brown","Sex Machine"));
+        ArrayList<Musicon> funk = new ArrayList<Musicon>();
+        funk.add(new Musicon("James Brown", "Sex Machine"));
 
-        MusicAdapter adapter = new MusicAdapter (this, funk); // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
+        MusicAdapter adapter = new MusicAdapter(this, funk); // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
         // word_listyout file.
         ListView listView = (ListView) findViewById(R.id.music_list);

@@ -5,16 +5,18 @@ package com.example.andrea.musicalstructureplayfunk;
  */
 
 public class Musicon {
-    /** Artist name*/
+    /**
+     * Artist name
+     */
     private String Artist;
 
-    /** song name */
+    /**
+     * song name
+     */
     private String Song;
 
     /**
      * Create a new Music object.
-     *
-
      */
     public Musicon(String artistOn, String songOn) {
         Artist = artistOn;

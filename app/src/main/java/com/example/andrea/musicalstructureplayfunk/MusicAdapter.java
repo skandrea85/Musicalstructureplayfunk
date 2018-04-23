@@ -19,7 +19,7 @@ public class MusicAdapter extends ArrayAdapter<Musicon> {
      * Create a new {@link MusicAdapter} object.
      *
      * @param context is the current context (i.e. Activity) that the adapter is being created in.
-     * @param songs is the list of {@link Musicon}s to be displayed.
+     * @param songs   is the list of {@link Musicon}s to be displayed.
      */
     public MusicAdapter(Context context, ArrayList<Musicon> songs) {
         super(context, 0, songs);

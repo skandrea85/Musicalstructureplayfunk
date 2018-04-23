@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
             }
 
 
-
         });
         TextView colors = (TextView) findViewById(R.id.funk);
 

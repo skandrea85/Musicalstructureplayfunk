@@ -1,106 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.andrea.musicalstructureplayfunk.MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="com.example.andrea.musicalstructureplayfunk.MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/play"
-        android:gravity="center_vertical"
-        android:textAlignment="center"
-        android:textSize="@dimen/text"
         android:layout_marginBottom="@dimen/bottom"
         android:layout_marginTop="@dimen/top"
-        />
+        android:gravity="center_vertical"
+        android:text="@string/play"
+        android:textAlignment="center"
+        android:textSize="@dimen/text" />
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="@dimen/draw"
-        android:src="@drawable/notemusic"
         android:layout_marginBottom="@dimen/top"
-        />
+        android:src="@drawable/notemusic" />
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:text="@string/artist"
         android:id="@+id/artist_text_view"
-        android:textSize="@dimen/textsize"
-        android:layout_marginLeft="@dimen/drawpadding"
-        android:layout_marginBottom="@dimen/music"
-
-        />
-    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="@string/song"
-        android:id="@+id/Song_text_view"
-        android:textSize="@dimen/textsize"
+        android:layout_marginBottom="@dimen/music"
         android:layout_marginLeft="@dimen/drawpadding"
+        android:textSize="@dimen/textsize"
+        tools:text="@string/artist"
 
-        android:layout_marginBottom="@dimen/margin_text"
         />
+
+    <TextView
+        android:id="@+id/Song_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_text"
+        android:layout_marginLeft="@dimen/drawpadding"
+        android:textSize="@dimen/textsize"
+
+        tools:text="@string/song" />
+
     <ProgressBar
         android:id="@+id/determinateBar"
         style="@android:style/Widget.ProgressBar.Horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:progress="35"
+        android:layout_marginBottom="@dimen/top"
         android:layout_marginLeft="@dimen/top"
         android:layout_marginRight="@dimen/top"
-        android:layout_marginBottom="@dimen/top"
-        />
-   <RelativeLayout
-       android:layout_width="match_parent"
-       android:layout_height="match_parent">
+        android:progress="35" />
 
-       <ImageButton
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:layout_alignParentTop="true"
-           android:layout_centerHorizontal="true"
-           android:background="@drawable/play"
-           android:id="@+id/play"
-           />
-       <ImageButton
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:layout_toRightOf="@id/play"
-           android:background="@drawable/stop"
-           android:id="@+id/stop"
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/play" />
 
-           />
-       <ImageButton
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:layout_toLeftOf="@id/play"
-           android:background="@drawable/pause"
-           android:id="@+id/pause"
-           />
-       <ImageButton
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:layout_toLeftOf="@id/pause"
-           android:background="@drawable/rewind"
+        <ImageButton
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/play"
+            android:background="@drawable/stop" />
 
-           />
-       <ImageButton
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
+        <ImageButton
+            android:id="@+id/pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/play"
+            android:background="@drawable/pause" />
 
-           android:background="@drawable/fast_forward"
-           android:layout_toRightOf="@id/stop"
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/pause"
+            android:background="@drawable/rewind"
 
-           />
+            />
 
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/stop"
+            android:background="@drawable/fast_forward"
 
-
-
-   </RelativeLayout>
+            />
+    </RelativeLayout>
 
 
 </LinearLayout>
