@@ -15,65 +15,65 @@ public class MainActivity extends AppCompatActivity {
 
 
         // Find the View that shows the rock music
-        TextView numbers = (TextView) findViewById(R.id.rock);
+        TextView rock = (TextView) findViewById(R.id.rock);
 
         // Set a click listener on that View
-        numbers.setOnClickListener(new View.OnClickListener() {
+        rock.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link rockActivity}
-                Intent numbersIntent = new Intent(MainActivity.this, rockActivity.class);
+                Intent rockIntent = new Intent(MainActivity.this, rockActivity.class);
 
                 // Start the new activity
-                startActivity(numbersIntent);
+                startActivity(rockIntent);
             }
         });
 
-        TextView family = findViewById(R.id.folk);
+        TextView folk = findViewById(R.id.folk);
 
         // Set a click listener on that View
-        family.setOnClickListener(new View.OnClickListener() {
+        folk.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link CountryActivity}
-                Intent familyIntent = new Intent(MainActivity.this, CountryActivity.class);
+                Intent folkIntent = new Intent(MainActivity.this, CountryActivity.class);
 
                 // Start the new activity
-                startActivity(familyIntent);
+                startActivity(folkIntent);
             }
 
 
         });
-        TextView colors = (TextView) findViewById(R.id.funk);
+        TextView funk = (TextView) findViewById(R.id.funk);
 
         // Set a click listener on that View
-        colors.setOnClickListener(new View.OnClickListener() {
+        funk.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link FunkActivity}
-                Intent colorsIntent = new Intent(MainActivity.this, funkActivity.class);
+                Intent funkIntent = new Intent(MainActivity.this, funkActivity.class);
 
                 // Start the new activity
-                startActivity(colorsIntent);
+                startActivity(funkIntent);
             }
         });
 
 
-        TextView pharses = (TextView) findViewById(R.id.reggae);
+        TextView reggae = (TextView) findViewById(R.id.reggae);
 
         // Set a click listener on that View
-        pharses.setOnClickListener(new View.OnClickListener() {
+        reggae.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link reggaeActivity}
-                Intent pharsesIntent = new Intent(MainActivity.this, reggaeActivity.class);
+                Intent reggaeIntent = new Intent(MainActivity.this, reggaeActivity.class);
 
                 // Start the new activity
-                startActivity(pharsesIntent);
+                startActivity(reggaeIntent);
             }
         });
 
