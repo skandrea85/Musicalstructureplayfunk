@@ -10,7 +10,4 @@
     <dimen name="textsize">20sp</dimen>
     <dimen name="margin_text">30dp</dimen>
     <dimen name="music">5dp</dimen>
-
-
-
 </resources>

@@ -6,7 +6,7 @@
     android:orientation="vertical"
     tools:context="com.example.andrea.musicalstructureplayfunk.MainActivity">
 
-    <TextView
+    <Button
         android:id="@+id/rock"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,9 +19,11 @@
         android:paddingRight="@dimen/paddingright"
         android:text="@string/Guns"
         android:textColor="#FF9800"
-        android:textSize="@dimen/text" />
+        android:textSize="@dimen/text"
+        android:textAllCaps="false"
+        />
 
-    <TextView
+    <Button
         android:id="@+id/folk"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,9 +36,12 @@
         android:paddingRight="@dimen/paddingright"
         android:text="@string/Johnny"
         android:textColor="#FF9800"
-        android:textSize="@dimen/text" />
+        android:textSize="@dimen/text"
+        android:textAllCaps="false"
 
-    <TextView
+        />
+
+    <Button
         android:id="@+id/funk"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -49,9 +54,12 @@
         android:paddingRight="@dimen/paddingright"
         android:text="@string/james"
         android:textColor="#FF9800"
-        android:textSize="@dimen/text" />
+        android:textSize="@dimen/text"
+        android:textAllCaps="false"
 
-    <TextView
+        />
+
+    <Button
         android:id="@+id/reggae"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -64,5 +72,7 @@
         android:paddingRight="@dimen/paddingright"
         android:text="@string/bob"
         android:textColor="#FF9800"
-        android:textSize="@dimen/text" />
+        android:textSize="@dimen/text"
+        android:textAllCaps="false"
+        />
 </LinearLayout>

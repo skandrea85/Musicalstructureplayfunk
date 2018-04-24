@@ -20,7 +20,9 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/draw"
         android:layout_marginBottom="@dimen/top"
-        android:src="@drawable/notemusic" />
+        android:src="@drawable/notemusic"
+        android:id="@+id/image"
+        />
 
     <TextView
         android:id="@+id/artist_text_view"
@@ -40,7 +42,6 @@
         android:layout_marginBottom="@dimen/margin_text"
         android:layout_marginLeft="@dimen/drawpadding"
         android:textSize="@dimen/textsize"
-
         tools:text="@string/song" />
 
     <ProgressBar
