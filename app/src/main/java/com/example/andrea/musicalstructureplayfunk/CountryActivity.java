@@ -12,7 +12,6 @@ public class CountryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_music);
-
         ArrayList<Musicon> country = new ArrayList<Musicon>();
         country.add(new Musicon("Johnny Cash", "I Walk the Line"));
 
@@ -24,7 +23,7 @@ public class CountryActivity extends AppCompatActivity {
         // Make the {@link ListView} use the {@link MusicAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Music} in the list.
         listView.setAdapter(adapter);
-
-
     }
+
 }
+

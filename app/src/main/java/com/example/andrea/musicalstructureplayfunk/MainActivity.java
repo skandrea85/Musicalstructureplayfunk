@@ -6,17 +6,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
         // Find the View that shows the rock music
         TextView rock = (TextView) findViewById(R.id.rock);
-
         // Set a click listener on that View
         rock.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers category is clicked on.

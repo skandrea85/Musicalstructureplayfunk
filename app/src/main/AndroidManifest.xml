@@ -17,14 +17,21 @@
             </intent-filter>
         </activity>
         <activity android:name=".rockActivity"
-            android:label="Rock"/>
-
+            android:label="Rock"
+            android:parentActivityName="com.example.andrea.musicalstructureplayfunk.MainActivity"
+            />
         <activity android:name=".reggaeActivity"
-            android:label="Reggae"/>
+            android:label="Reggae"
+            android:parentActivityName="com.example.andrea.musicalstructureplayfunk.MainActivity"
+            />
         <activity android:name=".funkActivity"
-            android:label="Funk"/>
+            android:label="Funk"
+            android:parentActivityName="com.example.andrea.musicalstructureplayfunk.MainActivity"
+            />
         <activity android:name=".CountryActivity"
-            android:label="Country"></activity>
+            android:label="Country"
+            android:parentActivityName="com.example.andrea.musicalstructureplayfunk.MainActivity"
+            ></activity>
     </application>
 
 </manifest>

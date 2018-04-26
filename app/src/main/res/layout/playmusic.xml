@@ -17,12 +17,11 @@
         android:textSize="@dimen/text" />
 
     <ImageView
+        android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="@dimen/draw"
         android:layout_marginBottom="@dimen/top"
-        android:src="@drawable/music_note"
-        android:id="@+id/image"
-        />
+        android:src="@drawable/music_note" />
 
     <TextView
         android:id="@+id/artist_text_view"
@@ -95,6 +94,8 @@
             android:background="@drawable/fast_forward"
 
             />
+
+
     </RelativeLayout>
 
 
